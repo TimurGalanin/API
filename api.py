@@ -38,7 +38,7 @@ def get_result(task):
     r=requests.get(url,data)
     print (r.json())
     #sreturn r.json()['response']['status']
-task=search_phisycal(region='16',firstname='Денис', lastname='Макаров', birthdate='24.10.1998')
+task=search_phisycal(region='16',firstname='Тимур', lastname='Галанин', birthdate='17.10.1998')
 print (task)
 
 status=get_status(task)
